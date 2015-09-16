@@ -89,5 +89,3 @@ with open('pick_your_kids_name.txt', 'w') as output:
     for name in final_names:
         print name
         print >> output, name
-    
-py.hist(p, bins = 100)
